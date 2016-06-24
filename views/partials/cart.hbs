@@ -47,7 +47,7 @@
                         </div>
                         <div class="cart-item-row text-right col-xs-4 col-md-3">
                             <div class="col-md-12">
-                                {{format_amount this.total_item_price}}
+                                Ksh {{format_amount this.total_item_price}}
                             </div>
                         </div>     
                     </div>
@@ -56,7 +56,7 @@
                     <div class="cart-contents-title col-md-12">
                         {{#ifCond session.shipping_cost_applied '==' true}}
                             <div class="col-xs-12 col-lg-12 text-right">
-                                Shipping: {{format_amount config.flat_shipping}}
+                                Shipping: Ksh{{format_amount config.flat_shipping}}
                             </div>
                         {{else}}    
                              <div class="col-xs-12 col-lg-12 text-right">
@@ -64,7 +64,7 @@
                             </div>
                         {{/ifCond}}
                         <div class="col-xs-12 col-lg-12 text-right">
-                            Total: {{format_amount session.total_cart_amount}}
+                            Total:Ksh {{format_amount session.total_cart_amount}}
                         </div>
                     </div>
                 </div>

@@ -71,9 +71,9 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
                         {{#if session.cart}}
-                            <li><a href="/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart <span class="badge" id="cart-count">{{object_length session.cart}}</span></a></li>
+                            <li><a href="/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Carts <span class="badge" id="cart-count">{{object_length session.cart}}</span></a></li>
                             {{else}}
-                            <li><a href="/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart <span class="badge" id="cart-count">0</span></a></li>
+                            <li><a href="/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cartd <span class="badge" id="cart-count">0</span></a></li>
 						{{/if}}
                         {{#if session.user}}
 							<li><a href="/logout">Logout</a></li>
@@ -81,9 +81,12 @@
 					</ul>
 				</div>
 	      </div>
-	    </nav>	
+	    </nav>
+
 		<div class="container-fluid">
+
 			{{{body}}}
+
 		</div>
 		<input type="hidden" id="input_notify_message" value="{{message}}">
 		<input type="hidden" id="input_notify_message_type" value="{{message_type}}">

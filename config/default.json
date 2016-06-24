@@ -1,6 +1,6 @@
 {
     "application": {
-        "cart_title": "ExpressCart",
+        "cart_title": "QuickShop",
         "number_products_index": 8,
         "base_url": "http://localhost:7777",
         "flat_shipping": 10.00,

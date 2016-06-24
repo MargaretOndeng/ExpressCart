@@ -90,7 +90,7 @@ handlebars = handlebars.create({
             }
         },  
         format_amount: function (amt) {
-            return numeral(amt).format('$0.00');
+            return numeral(amt).format('ksh0.00');
         }, 
         get_status_color: function (status){
             switch (status) {

@@ -136,6 +136,6 @@ exports.order_with_paypal = function(req, res){
         }
 
         // redirect to paypal webpage
-        res.redirect(url);
+        // res.redirect(url);
     });
 };

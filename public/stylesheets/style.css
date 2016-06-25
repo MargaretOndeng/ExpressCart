@@ -87,8 +87,8 @@ html{
     font-size: 20px;
     padding-bottom: 10px;
     margin-top: 0px;
-    max-height: 86px;
-    min-height: 86px;
+    max-height: 50px;
+    min-height: 56px;
 }
 
 .product-title-home{
@@ -105,7 +105,7 @@ html{
 .product-price{
     padding-bottom: 10px;
     font-size: 20px;
-    color: #AAAAAA;
+    color: #AE8139;
 }
 
 .product-option{
@@ -261,7 +261,7 @@ html{
 }
 
 @media only screen and (max-width: 768px) {
-    
+
     .paypal_button{
         padding-top: 10px;
     }
